@@ -1,0 +1,114 @@
+﻿.pad-top {
+  padding-top: 20px;
+}
+.homepage ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.homepage li {
+  float: left;
+}
+.homepage li a,
+.homepage .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
+.homepage li a:hover,
+.homepage .ul-dropdown:hover .dropbtn {
+  background-color: #2fd9e2;
+}
+.homepage li.ul-dropdown {
+  display: inline-block;
+}
+.homepage .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.homepage .dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.homepage .dropdown-content a:hover {
+  background-color: #2fd9e2;
+}
+.homepage .ul-dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo {
+  position: relative;
+  top: 15px;
+  color: #2fd9e2;
+  font-size: 20px;
+}
+.activee {
+  background-color: #2fd9e2;
+}
+.footer {
+  /*position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;*/
+  background-color: #efefef;
+  text-align: center;
+}
+.footer p {
+  margin: 2px;
+}
+.home-bg {
+  background: url('../Images/backtovillate-bg.png') center center no-repeat;
+  min-height: 500px;
+}
+.side-content {
+  position: absolute;
+  top: 90px;
+  text-align: center;
+  max-height: 250px;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+}
+.awesom {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Colfax-Bold";
+  line-height: 35px;
+  padding-bottom: 10px;
+}
+.feature {
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: initial;
+}
+.home-bg-1 {
+  background: url('../Images/image (1).png') center center no-repeat;
+  min-height: 500px;
+}
+.home-bg-2 {
+  background: url('../Images/image (2).png') center center no-repeat;
+  min-height: 500px;
+}
+.home-bg-3 {
+  background: url('../Images/image (3).png') center center no-repeat;
+  min-height: 500px;
+}
+#slides_control > div {
+  height: 200px;
+}
+img {
+  margin: auto;
+  width: 400px;
+}
+/*# sourceMappingURL=StyleSheet.css.map */

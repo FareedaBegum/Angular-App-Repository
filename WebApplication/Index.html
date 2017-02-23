@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <link href="Content/CSS/Site.css" rel="stylesheet" />
+    <link href="Content/CSS/StyleSheet.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.2/angular-resource.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/mainCtrl.js"></script>
+    <script src="Scripts/cameraCtrl.js"></script>
+</head>
+
+<body ng-app="mainApp">
+    <div class="row">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container homepage" style="margin: 0 !important;width: 100%;">
+                <div ng-controller="mainCtrl" class="row">
+                    <div class="col-xs-12 col-sm-2 logo">ANGULAR APP</div>
+                    <div class="col-xs-12 col-sm-1"></div>
+                    <div class="col-xs-12 col-sm-6">
+                        <ul class="nav-ul">
+                            <li class="activee"><a ui-sref="home">Home</a></li>
+                            <li class="ul-dropdown">
+                                <a ui-sref="camera">Camera</a>
+                                <div class="dropdown-content">
+                                    <ul ng-repeat="Cam in Camera | orderBy">
+                                        <li style="width: 100%;">
+                                            <a href="#">{{Cam.itemName}}</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="ul-dropdown">
+                                <a ui-sref="home">Mobiles</a>
+                                <div class="dropdown-content">
+                                    <ul ng-repeat="Mobile in Mobiles | orderBy">
+                                        <li style="width: 100%;">
+                                            <a href="#">{{Mobile.itemName}}</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="ul-dropdown">
+                                <a ui-sref="home">Laptops</a>
+                                <div class="dropdown-content">
+                                    <ul ng-repeat="Laptop in Laptops | orderBy">
+                                        <li style="width: 100%;">
+                                            <a href="#">{{Laptop.itemName}}</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a ui-sref="home">Contact</a></li>
+                            <li><a ui-sref="home">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <ul>
+                            <li class="ul-dropdown"><a ui-sref="register">New User <i class="fa fa-users"></i></a></li>
+                            <li class="ul-dropdown"><a href="#">Login <i class="fa fa-user-circle-o" style="color:#2fd9e2"></i></a></li>
+                            <li class="ul-dropdown"><a href="#">Sign Out <i class="fa fa-user-circle-o" style="color:red"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <div>
+                <div ui-view style="padding-top:6%; min-height:500px;"></div>
+            </div>
+        </div>
+        <!--<div>
+            <footer class="footer">
+                <p>&copy;2017 - My Sample Angular Application</p>
+            </footer>
+        </div>-->
+    </div>
+</body>
+</html>

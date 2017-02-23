@@ -1,0 +1,23 @@
+﻿<!--https://scotch.io/tutorials/angular-routing-using-ui-router#nested-views-home-page-->
+
+
+
+<div class="row" ng-controller="cameraCtrl" >
+    <div class="col-xs-12">
+        <carousel interval="myInterval">
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}">               
+            </slide>
+        </carousel>
+    </div>
+    <div class="col-xs-12">
+        <div style="text-align:center;padding-top:25px;">
+            <label>Please hover on the camera tab to see the brands. </label>
+            <a ui-sref=".list" class="btn btn-primary">List</a>
+            <a ui-sref=".paragraph" class="btn btn-danger">Paragraph</a>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div ui-view></div>
+    </div>
+</div>

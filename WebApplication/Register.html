@@ -1,0 +1,192 @@
+﻿<style>
+    .about_me {
+        background-color: #e96c3d;
+        color: #fff;
+        padding: 30px 60px;
+    }
+
+    .quote {
+        font-family: "OpenSansLight";
+        font-size: 20px;
+    }
+
+    .attribution {
+        font-family: "Colfax-Light", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+        padding-top: 10px;
+        text-align: right;
+    }
+
+    .aboutme-text {
+        font-family: "Colfax-Bold";
+        text-transform: uppercase;
+    }
+
+    .contactme {
+        padding-bottom: 60px;
+        background-color: transparent;
+        /*padding: 20px 0 0 0;*/
+    }
+
+    .ketopia .contactme .contactme-block {
+        box-shadow: -1px 1px 15px -1px #808080;
+        background-color: #ffffff;
+        min-height: 270px;
+        padding: 10px 40px;
+        margin: 0;
+    }
+
+    contactme-text {
+        color: #cb333b;
+        font-size: 50px;
+        text-align: center;
+        font-family: "Colfax-Light";
+        padding-top: 10px;
+    }
+
+    .contactme-block label {
+        color: white;
+        font-family: "Colfax-Light";
+        font-weight: lighter;
+    }
+
+    .red {
+        color: white;
+    }
+
+    .red-btn {
+        background-color: #2fd9e2;
+        padding: 6px 20px;
+        color: #ffffff;
+        font-size: 11px;
+        font-family: "Colfax-Bold", sans-serif;
+        text-transform: uppercase;
+        border: 1px solid #2fd9e2;
+        border-radius: 0px;
+    }
+</style>
+<div class="row">
+    <div class="col-xs-6">
+        <div class="col-xs-12">
+            <div>
+                <div class="feedback">
+                    <div class="quote">
+                        “NextSphere was able to come in, they understood our needs, documented what we were looking for and looked at our existing technology and capabilities and were able to design out for us exactly how we could meet that need and do it in a cost effective way.”
+                    </div>
+                    <div class="attribution ng-binding" ng-bind-html="lexicons.ket_resource_author">Ron Williams<br>Founder, CEO &amp; Chairman</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div style="text-align: center;padding-top: 20px;">
+                <div class="col-sm-9">
+                    <div class="aboutme-text ng-binding">ABOUT US</div>
+                    <h5 class="ng-binding">(India Headquarters & Delivery Center)</h5>
+                    <h6 class="ng-binding">No:8-2-120/113, Sanali Info Park</h6>
+                    <h6 class="ng-binding">Road No-2, Banjara Hills</h6>
+                    <h6 class="ng-binding">Hyderabad, TG, India 500 033</h6>
+                    <h6 class="ng-binding">Office: +91-40-40407777</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <section class="row about_me">
+            <div class="">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="contactme col-md-12">
+                            <div class="column contactme-block">
+                                <div class="contactme-text" style="text-align: center;font-size: 25px; padding-bottom: 25px;">REGISTER</div>
+                                <form name="registerform">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="FirstName" ><span class="red">*</span> First Name</label>
+                                                    <input class="form-control" ng-model="contact.fname" name="fname" placeholder="" type="text" ng-required="true" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="LastName" ><span class="red">*</span> Last Name</label>
+                                                   <input class="form-control" ng-model="contact.lname" name="lname" placeholder="" required="required" type="text" ng-required="true">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label  ><span class="red">*</span> Email</label>
+                                              
+                                                    <input class="form-control" ng-model="contact.cellphone" name="cellphone" placeholder="" type="text">
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label  ><span class="red">*</span> Mobile Phone</label>
+                                                
+                                                    <input class="form-control" ng-model="contact.homephone" name="homephone" placeholder="" type="text">
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label  ><span class="red">*</span> Password </label>
+                                                
+                                                    <input class="form-control" ng-model="contact.cellphone" name="cellphone" placeholder="" type="text">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label  ><span class="red">*</span> Confirm Password</label>
+                                               
+                                                    <input class="form-control" ng-model="contact.homephone" name="homephone" placeholder="" type="text">
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label  ><span class="red">*</span> Birth Day </label>
+                                                
+                                                    <input class="form-control" ng-model="contact.cellphone" name="cellphone" placeholder="" type="text">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label ><span class="red">*</span> Gender</label>
+                                                <div>
+                                                    <div class="col-sm-6">
+                                                        <input type="radio" name="gender" ng-model="gender" />
+                                                        <label>Male</label>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input type="radio" name="gender" ng-model="gender" />
+                                                        <label>Female</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="text-align: center; padding-top:10px;">
+                                        <button type=" button" class="btn red-btn">
+                                            SIGN UP
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
