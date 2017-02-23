@@ -13,4 +13,5 @@ git push -u origin master,
 done..
 
 #To know about git commands:
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git
