@@ -1,7 +1,7 @@
 # Angular-App-Repository
 
 How to place our code in github:
-steps:
+#steps:
 
 cd app location,
 git init,
@@ -11,3 +11,6 @@ git remote add origin https://github.com/FareedaBegum/Angular-App-Repository.git
 git pull -u origin master,
 git push -u origin master,
 done..
+
+#To know about git commands:
+https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git
