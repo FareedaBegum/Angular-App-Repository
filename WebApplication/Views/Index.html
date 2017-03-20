@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.2/angular-resource.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>   
     <script src="Scripts/app.js"></script>
     <script src="Scripts/mainCtrl.js"></script>
     <script src="Scripts/cameraCtrl.js"></script>
@@ -31,6 +31,26 @@
                     <div class="col-xs-12 col-sm-6">
                         <ul class="nav-ul">
                             <li class="activee"><a ui-sref="home">Home</a></li>
+                            <li class="ul-dropdown">
+                                <a href="#">Routing</a>
+                                <div class="dropdown-content">
+                                    <ul>
+                                    <!--<ul ng-repeat="Route in Routing | orderBy">-->
+                                        <!--<li style="width: 100%;">
+                                            <a ui-sref="nestedview">{{Route.itemName}}</a>
+                                        </li>-->
+                                    <li style="width: 100%;">
+                                      <a ui-sref="nestedview">Nested View</a>
+                                    </li>
+                                    <li style="width: 100%;">
+                                        <a ui-sref="multipleview">Multiple View</a>
+                                    </li>
+                                    <li style="width: 100%;">
+                                        <a ui-sref="singlepageapp">SPA Ex View</a>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li class="ul-dropdown">
                                 <a ui-sref="camera">Camera</a>
                                 <div class="dropdown-content">

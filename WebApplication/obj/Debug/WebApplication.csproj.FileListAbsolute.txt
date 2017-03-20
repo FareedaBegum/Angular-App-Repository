@@ -4,3 +4,9 @@ E:\WebApplication\WebApplication\bin\WebApplication.pdb
 E:\WebApplication\WebApplication\obj\Debug\WebApplication.dll
 E:\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
 E:\WebApplication\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+D:\sample app from git\Angular-App-Repository\WebApplication\bin\WebApplication.dll.config
+D:\sample app from git\Angular-App-Repository\WebApplication\bin\WebApplication.dll
+D:\sample app from git\Angular-App-Repository\WebApplication\bin\WebApplication.pdb
+D:\sample app from git\Angular-App-Repository\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+D:\sample app from git\Angular-App-Repository\WebApplication\obj\Debug\WebApplication.dll
+D:\sample app from git\Angular-App-Repository\WebApplication\obj\Debug\WebApplication.pdb

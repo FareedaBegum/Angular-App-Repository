@@ -1,0 +1,9 @@
+﻿<div class="row" ng-controller="cameraCtrl">
+    <div class="col-xs-12">
+        <carousel interval="myInterval">
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}">
+            </slide>
+        </carousel>
+    </div>
+</div>

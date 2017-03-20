@@ -24,6 +24,11 @@
           { "itemName": "HP" },
           { "itemName": "Acer" }
         ];
+        $scope.Routing = [
+        { "itemName": "Nested View", "link": "nestedview" },
+        { "itemName": "Multiple View", "link": "multipleview" },
+        { "itemName": "SPA Ex View", "link": "singlepageapp" }
+        ];
 
         $('.nav-ul').on('click', 'li', function () {
             $('.nav-ul li.activee').removeClass('activee');

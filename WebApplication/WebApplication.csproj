@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\cast-info.html" />
     <Content Include="Content\CSS\StyleSheet.less" />
     <Content Include="Content\CSS\mixin.less" />
     <Content Include="Content\CSS\mixin.css.map">
@@ -65,7 +66,13 @@
     <Content Include="Content\CSS\StyleSheet.css.map">
       <DependentUpon>StyleSheet.css</DependentUpon>
     </Content>
+    <Content Include="Views\home-cast.html" />
+    <Content Include="Views\Multipleview-One.html" />
+    <Content Include="Views\Multipleview-Routing.html" />
+    <Content Include="Views\Multipleview-Two.html" />
+    <Content Include="Views\Nestedview-Routing.html" />
     <Content Include="sevice.js" />
+    <Content Include="Views\spaMainPage.html" />
     <Content Include="test.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,9 +82,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Camera-list.html" />
-    <Content Include="Camera-paragraph.html" />
-    <Content Include="Camera.html" />
+    <Content Include="Views\Nested-list.html" />
+    <Content Include="Views\Nested-paragraph.html" />
+    <Content Include="Views\Camera.html" />
     <Content Include="Content\CSS\Site.css" />
     <Content Include="Content\CSS\StyleSheet.css">
       <DependentUpon>StyleSheet.less</DependentUpon>
@@ -96,9 +103,9 @@
     <Content Include="Content\Images\ketonx-drink.png" />
     <Content Include="Content\Images\powerstrips-europe.png" />
     <Content Include="Content\Images\sample.png" />
-    <Content Include="Home.html" />
-    <Content Include="Index.html" />
-    <Content Include="Register.html" />
+    <Content Include="Views\Home.html" />
+    <Content Include="Views\Index.html" />
+    <Content Include="Views\Register.html" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\cameraCtrl.js" />
     <Content Include="Scripts\mainCtrl.js" />

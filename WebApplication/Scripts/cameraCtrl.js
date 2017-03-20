@@ -6,7 +6,6 @@
         $scope.myInterval = 30000;
         $scope.slides = [
           { image: 'Content/Images/ketobru_howdoubru_bg.png' },
-          { image: 'Content/Images/image (1).png' },
           { image: 'Content/Images/image (2).jpg' },
           { image: 'Content/Images/powerstrips-europe.png' }
         ];
@@ -17,18 +16,7 @@
         var a = JSON.stringify($scope.data);
         $scope.postdata = function () {
             console.log(a);            
-            //TestService
-            //    .postDetails(a)
-            //    .success(function (data) {
-            //        console.log("Done");
-            //    })
-            //    .error(function (data) {
-            //        console.log("error");
-            //    })
-             $http.post('test.json', JSON.stringify(a))
-                .then(function (data) {
-                console.log("Done");
-            })
+           
     }
 }]);
 
